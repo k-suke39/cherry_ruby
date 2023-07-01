@@ -31,3 +31,9 @@ p 2 ** 3
 p n = 1
 p n += 1
 p n -= 1
+
+#式展開する場合は暗黙的に変換される
+
+number = 3
+
+p "number is #{number}"
