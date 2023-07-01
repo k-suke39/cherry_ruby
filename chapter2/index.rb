@@ -37,3 +37,11 @@ p n -= 1
 number = 3
 
 p "number is #{number}"
+
+p %!Bye!
+
+a =<<TEXT
+これはヒアドキュメントです
+TEXT
+
+p a
