@@ -1,47 +1,20 @@
-#多重代入
-a,b = 10
+n = 11
 
-puts a
-puts b #代入されない
+p n > 10 ? "10以上" : "10以下"
 
+p ''.empty?
 
-a,b = 10,2
+p "watch".include?('at')
 
-puts a
-puts b #代入される
+p nil.nil?
 
-a,b = 10,2,100
+p "a".upcase
 
-puts a
-puts b #代入される
+p "a".upcase!
 
 
-#2つの変数に同じ値を代入する
-a = b = 100
 
-puts a
-puts b 
-
-p 1/2
-p 1.0 /2
+require 'date'
 
 
-p 2 ** 3
-
-p n = 1
-p n += 1
-p n -= 1
-
-#式展開する場合は暗黙的に変換される
-
-number = 3
-
-p "number is #{number}"
-
-p %!Bye!
-
-a =<<TEXT
-これはヒアドキュメントです
-TEXT
-
-p a
+p Date.today
