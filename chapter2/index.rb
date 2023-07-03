@@ -11,3 +11,10 @@ p nil.nil?
 p "a".upcase
 
 p "a".upcase!
+
+
+
+require 'date'
+
+
+p Date.today
