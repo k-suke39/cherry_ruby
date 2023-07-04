@@ -13,3 +13,9 @@ a.delete(2)
 b = [6,7,8,9,10]
 
 p a.concat(b)
+
+c = %W( apple melon  orange)
+p c
+d = Array.new(5,1)
+
+p d
