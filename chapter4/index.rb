@@ -19,3 +19,4 @@ p c
 d = Array.new(5,1)
 
 p d
+
