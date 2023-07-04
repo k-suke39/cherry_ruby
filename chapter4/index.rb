@@ -8,4 +8,8 @@ a[a.length - 1]
 
 p a[1,3] = 100
 
-p a
+a.delete(2)
+
+b = [6,7,8,9,10]
+
+p a.concat(b)
