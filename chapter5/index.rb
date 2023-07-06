@@ -1,0 +1,3 @@
+puts {}.class
+
+puts "hello"
