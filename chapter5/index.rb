@@ -9,3 +9,7 @@ p 'apple'.upcase!
 p :apple.upcase!
 
 #第一引数にハッシュ を指定すると、構文的にブロックとして解釈されるため、エラーになる
+
+
+ limit = nil
+ limit ||= 10
