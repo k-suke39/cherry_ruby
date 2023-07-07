@@ -1,5 +1,10 @@
 class Ticket
-  def initialize(fare)
-    @fare = fare
-  end
 end
+
+ticket = Ticket.new
+
+
+
+
+
+p ticket.is_a?(Object)
