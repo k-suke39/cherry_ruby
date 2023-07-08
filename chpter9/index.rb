@@ -6,3 +6,9 @@ begin
 rescue => e
 p e.class
 end
+
+def greeting
+  p "おはよう"
+end
+
+greeting 
